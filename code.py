@@ -1,3 +1,2 @@
-from datetime import datetime
-print ("hello il est ".format(datetime.now().strftime("%H:%M:%S")))
-print ("hello")
+from refonte import obtenir_temps
+print (obtenir_temps())
